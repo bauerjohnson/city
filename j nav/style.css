@@ -1,0 +1,52 @@
+body {
+    background-image: url(jb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1;
+    margin:0;
+padding-left: 10px;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: antiquewhite;
+    overflow: hidden;
+    padding: 0;
+    margin:0;
+    opacity: .8;
+    padding-top: 1rem;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+    padding-right: 2rem;
+}
+
+ul.topnav li a  {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: coral;
+}
+
+ul.topnav li a:hover {
+
+    background-color: cadetblue;
+     color: black;}
+
+.firstnav ul li ul li {
+    display: none;
+}
+
+.firstnav ul li:hover ul li {
+    display: block;
+}
+
